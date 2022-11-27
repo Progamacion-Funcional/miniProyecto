@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\usualrio\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\usualrio\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 18.0.1)
+[debug]       Load.loadUnit: plugins took 4515.481517ms
+[debug]       Load.loadUnit: defsScala took 0.811411ms
+[debug] [Loading] Scanning directory C:\Users\usualrio\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\usualrio\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 455.999214 ms
+[debug]           Load.resolveProject(global-plugins) took 2182.197805ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\usualrio\.sbt\1.0\plugins, plugins: List(<none>))) took 3785.980819ms
+[debug] [Loading] Done in C:\Users\usualrio\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 5866.901523ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.307991ms
+[debug]     Load.loadUnit(file:/C:/Users/usualrio/.sbt/1.0/plugins/, ...) took 10634.872178ms
+[debug]   Load.apply: load took 18793.099086ms
+[debug]   Load.apply: resolveProjects took 216.673407ms
+[debug]   Load.apply: finalTransforms took 880.168618ms
+[debug]   Load.apply: config.delegates took 9.376504ms
+[debug]   Load.apply: Def.make(settings)... took 4725.706171ms
+[debug]   Load.apply: structureIndex took 206.260365ms
+[debug]   Load.apply: mkStreams took 11.190353ms
+[info] loading global plugins from C:\Users\usualrio\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 91788.754941ms
+[debug]           Load.loadUnit: plugins took 310.069595ms
+[debug]           Load.loadUnit: defsScala took 0.005866ms
+[debug] [Loading] Scanning directory C:\Users\usualrio\IdeaProjects\Metodo_Simpson\project
+[debug]             Load.loadUnit: mkEval took 729.462566ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\usualrio\IdeaProjects\Metodo_Simpson\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.034943 ms
+[info] loading settings for project metodo_simpson-build from idea.sbt ...
+[debug]               Load.resolveProject(metodo_simpson-build) took 2.948284ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id metodo_simpson-build, base: C:\Users\usualrio\IdeaProjects\Metodo_Simpson\project, plugins: List(<none>))) took 5.553378ms
+[debug] [Loading] Done in C:\Users\usualrio\IdeaProjects\Metodo_Simpson\project, returning: (metodo_simpson-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 26237.369328ms
+[debug]           Load.loadUnit: cleanEvalClasses took 33.254636ms
+[debug]         Load.loadUnit(file:/C:/Users/usualrio/IdeaProjects/Metodo_Simpson/project/, ...) took 26582.145519ms
+[debug]       Load.apply: load took 26584.459488ms
+[debug]       Load.apply: resolveProjects took 0.148863ms
+[debug]       Load.apply: finalTransforms took 15.435502ms
+[debug]       Load.apply: config.delegates took 0.588117ms
+[debug]       Load.apply: Def.make(settings)... took 105.786975ms
+[debug]       Load.apply: structureIndex took 57.195833ms
+[debug]       Load.apply: mkStreams took 0.002933ms
+[info] loading project definition from C:\Users\usualrio\IdeaProjects\Metodo_Simpson\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 43620.655442ms
+[debug]     Load.loadUnit: defsScala took 0.004767ms
+[debug] [Loading] Scanning directory C:\Users\usualrio\IdeaProjects\Metodo_Simpson
+[debug]       Load.loadUnit: mkEval took 0.34429ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.386439 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 36.535845ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\usualrio\IdeaProjects\Metodo_Simpson, plugins: List(<none>))) took 42.015892ms
+[debug] [Loading] Done in C:\Users\usualrio\IdeaProjects\Metodo_Simpson, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 6355.578622ms
+[debug]     Load.loadUnit: cleanEvalClasses took 298.988138ms
+[debug]   Load.loadUnit(file:/C:/Users/usualrio/IdeaProjects/Metodo_Simpson/, ...) took 50276.559766ms
+[debug] Load.apply: load took 50279.564148ms
+[debug] Load.apply: resolveProjects took 0.183695ms
+[debug] Load.apply: finalTransforms took 30.838371ms
+[debug] Load.apply: config.delegates took 0.417255ms
+[debug] Load.apply: Def.make(settings)... took 68.52845ms
+[debug] Load.apply: structureIndex took 54.957763ms
+[debug] Load.apply: mkStreams took 0.004033ms
+[info] set current project to Metodo_Simpson (in build file:/C:/Users/usualrio/IdeaProjects/Metodo_Simpson/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 49883 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 49883, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Metodo_Simpson (in build file:/C:/Users/usualrio/IdeaProjects/Metodo_Simpson/)
+[debug] > Exec(idea-shell, None, None)
