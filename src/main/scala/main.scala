@@ -7,11 +7,10 @@ def AproximacionCompuesta(a:Double, b:Double,n:Int,funcion:Double => Double) : D
   val xj = (j:Double) => a + (j*h)
   (h/3) * (1 to (n/2)).map(j =>funcion(xj(2*j-2))+4*funcion(xj(2*j-1))+funcion(xj(2*j))).sum
 
-def AproximacionExtendida(a:Double, b:Double, funcion:Double => Double) : Double = {
+def AproximacionExtendida(a:Double, b:Double, funcion:Double => Double) : Double =
   val n = 2 * (b-a)
   val h = (b-a)/n
-  (h/3)*(funcion(a)+(4*(1 to (n-1).toInt).map(i => funcion(a+(i*h))).sum) + (2*(1 to (n-2).toInt).map(j => funcion(a+(j*h))).sum) + funcion(b))
-}
+  (h/3)*(funcion(a)+(4*(1 to (n-1).toInt by 2).map(i => funcion(a+(i*h))).sum) + (2*(2 to (n-2).toInt by 2).map(j => funcion(a+(j*h))).sum) + funcion(b))
 
 def calError (valEsperado : Double, Aproximacion : Double) = (Math.abs(valEsperado-Aproximacion))
 
@@ -25,6 +24,7 @@ val Integral7 = (x:Double)=> 1/(1+Math.pow(x,2))
 
 @main
 def main(): Unit =
+  println("Error de Aproximacion Simple")
   println(calError(7.33, AproximacionSimple(3, 5, Integral1)))
   println(calError(8, AproximacionSimple(0, 2, Integral2)))
   println(calError(3.333, AproximacionSimple(-1, 1, Integral3)))
